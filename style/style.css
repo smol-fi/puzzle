@@ -1,0 +1,82 @@
+body {
+margin: 0;
+background-color: darkslategrey;
+box-sizing: border-box !important;
+}
+
+#scorebar {
+	height: 30px;
+	background-color: slategrey;
+	margin-bottom: 10px;
+	padding-left: 150px;
+}
+
+.scorebar-items {
+	height: 30px;
+	width: 150px;
+	float: left;
+	margin-right: 10px;
+	background-color: tomato;
+}
+
+#game {
+	display: block;
+	margin-left: 50px;
+}
+
+.game-container {
+	border: 1px solid hotpink;
+	background-color: rgba(0,0,0,33%);
+	width: 500px;
+	height: 500px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#playarea {
+	display: block;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.game-piece {
+	float: left;
+	height: 100px;
+	width: 100px;
+	outline: 1px dotted tomato;
+}
+
+.puzzle-piece {
+	float: left;
+	height: 100px;
+	width: 100px;
+	outline: 1px dotted tomato;
+	opacity: 0.5;
+}
+
+#moves, #score, #highscore {
+	text-align: center;
+	transform: translate(0,-50%);
+}
+
+#gamewrapper {
+	display: inline-block;
+	background-color: slategrey;
+	border-radius: 15px;
+	height: 502px;
+	width: auto;
+	margin-left: 50px;
+}
+
+.scorebar-button {
+	height: 30px;
+	background-color: tomato !important;
+	line-height: 15px;
+}
+
+.bitar {
+	height: 100px;
+	width: 100px;
+	float: left;
+}
